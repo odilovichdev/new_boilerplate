@@ -1,17 +1,17 @@
-from django.urls import re_path
 from drf_yasg import openapi
-from drf_yasg.views import get_schema_view
+from django.urls import re_path
 from rest_framework import permissions
+from drf_yasg.views import get_schema_view
 
 from .generator import BothHttpAndHttpsSchemaGenerator
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="UIC API",
+        title="UzChess API",
         default_version="v1",
-        description="UIC Group",
+        description="UzChess",
         terms_of_service="https://www.google.com/policies/terms/",
-        contact=openapi.Contact(email="info@uic.group"),
+        contact=openapi.Contact(email="fazliddin@gmail.com"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,

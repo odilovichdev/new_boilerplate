@@ -11,3 +11,4 @@ packages and tools to start a new Django project. It includes the following:
 
 # bolalar_uchun
 # new_boilerplate
+# UzChess
